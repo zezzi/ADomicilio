@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_location_values">
+        <item>@string/pref_label_guatemala</item>
+        <item>@string/pref_label_usa</item>
+    </string-array>
+
+    <string-array name="pref_locations_options">
+        <item>@string/pref_gua</item>
+        <item>@string/pref_usa</item>
+    </string-array>
+
+</resources>

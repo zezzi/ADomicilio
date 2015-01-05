@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/background_app"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font_titles"
+            android:text="@string/slogan_login"
+            android:id="@+id/txt_slogan_login"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font_titles"
+            android:text="@string/slogan_ubicacion"
+            android:id="@+id/txt_ubicacion"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/current_location"
+            android:id="@+id/current_location" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_login_button"
+            android:id="@+id/btn_search_login" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/address"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_login_txt"
+            android:id="@+id/btn_login_with_account" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font_titles"
+            android:text="@string/txt_choose_your_city"
+            android:id="@+id/txt_choose_your_city"
+            android:textSize="@dimen/medium_size"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_city"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/cities_array"
+            android:prompt="@string/txt_choose_your_city"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

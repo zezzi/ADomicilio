@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="background_app" type="color">#FF4444</item>
+    <item name="font_titles" type="color">#FFFFFF</item>
+    <item name="adomicilio_light_red" type="color">#ed93d5</item>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#cccccc</color>
+    <color name="grey_700">#646464</color>
+    <color name="black">#000000</color>
+    <color name="dark_grey">#3f4244</color>
+    <color  name="green">#70bf2b</color>
+    <color name="adomicilio_red">#B71C1C</color>
+</resources>

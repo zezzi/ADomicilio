@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ADomicilio</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="slogan_login">Order Food Online and pay at home</string>
+    <string name="current_location"> Use your current location</string>
+    <string name="search_login_button">Search</string>
+    <string name="btn_login_txt">Login with Account</string>
+    <string name="txt_choose_your_city">Choose your city</string>
+    <string name="slogan_ubicacion">Where are you located?</string>
+    <string name="content_authority">delivery.food.eg.com.adomicilio</string>
+    <string-array name="cities_array">
+        <item>Guatemala</item>
+        <item>Salvador</item>
+    </string-array>
+
+    <string name="title_activity_busqueda">BusquedaActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_activity2">MainActivity2</string>
+
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="pref_location_default" translatable="false">GUA</string>
+    <string name="pref_units_key" translatable="false">GUA</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_detail">Menu of Restaurant</string>
+    <string name="title_cart">Cart</string>
+    <string name="action_share">Share</string>
+    <string name="totaldue">Total Due:</string>
+    <!-- SyncAdapter-->
+    <string name="sync_account_type">adomicilio.eg.com</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="addressName">Receipient</string>
+    <string name="addressName2">Bob Stovall</string>
+    <string name="addressBilling2">12 calle 3-24 zona 20 Gua</string>
+    <string name="addressBilling">Devlivery Address</string>
+    <!--Detail Strings-->
+    <string name="paymethods" >Paying Methods</string>
+    <string name="minimum">Minimum to order</string>
+
+    <string name="pref_label_guatemala">GUA</string>
+    <string name="pref_label_usa">USA</string>
+    <string name="pref_gua">GUA</string>
+    <string name="pref_usa">USA</string>
+
+    <string name="deliverycost">Delivery Cost</string>
+    <string name="timetodeliver">Time to deliver</string>
+    <string name="action_cart">Cart</string>
+    <string name="actioncartsend">Send Order</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_place"
+    android:name="delivery.food.eg.com.adomicilio.BusquedaFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="delivery.food.eg.com.adomicilio.BusquedaFragment"
+    tools:layout="@android:layout/list_content" />

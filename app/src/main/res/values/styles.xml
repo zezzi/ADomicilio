@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ActionBar.Solid.ADomicilio</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ActionBar.Solid.ADomicilio" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/adomicilio_red</item>
+    </style>
+
+    <style name="ForecastListStyle">
+
+    </style>
+
+</resources>

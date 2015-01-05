@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+
+        android:background="@drawable/restaurant_top"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/addressBilling"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="@string/addressBilling"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/addressBillingtext"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="@string/addressBilling2"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/addressName"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="@string/addressName"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/adressName"
+                android:textStyle="bold"
+                android:maxLines="4"
+                android:singleLine="false"
+                android:textColor="@color/white"
+                android:text="@string/addressName2"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/totaldue"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="@string/totaldue"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/totalduesum"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+
+                android:layout_gravity="center_horizontal"
+                />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <ListView
+        style="@style/ForecastListStyle"
+        android:id="@+id/cartListView"
+        android:layout_width="match_parent"
+        android:dividerHeight="20dp"
+        android:divider="@android:color/transparent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>

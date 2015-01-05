@@ -1,0 +1,13 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Element Pressed -->
+    <item android:state_pressed="true"
+        android:drawable="@color/adomicilio_light_red" />
+
+    <!-- View Activated -->
+    <item android:state_activated="true"
+        android:drawable="@color/adomicilio_light_red" />
+
+    <!-- Default, -->
+    <item android:drawable="@android:color/transparent" />
+</selector>

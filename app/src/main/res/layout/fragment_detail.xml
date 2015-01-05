@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/scrollView"
+   >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+
+        android:background="@drawable/restaurant_top"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/namerestaurant"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+
+                android:layout_gravity="center_horizontal"
+                />
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/logoRestaurant"
+            android:src="@drawable/defaultrestaurant"
+             />
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:layout_gravity="center_horizontal">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/paymethods"
+                android:textStyle="bold"
+                android:text="@string/paymethods"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/detailpay"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/minimum"
+                android:textStyle="bold"
+                android:text="@string/minimum"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/detailminimum"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center_horizontal"
+                    />
+                </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/deliverycost"
+                android:textStyle="bold"
+                android:text="@string/deliverycost"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/detaildeliverycost"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center_horizontal"
+                    />
+                </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/timetodeliver"
+                android:textStyle="bold"
+                android:text="@string/timetodeliver"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+              />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/detailtimetodeliver"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center_horizontal"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="15dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/menuListView"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+</ScrollView>
